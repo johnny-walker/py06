@@ -1,4 +1,7 @@
-int square_minus(int a){return -a*a;};
+int square_minus(int a){
+    return -a*a;
+};
+
 class demo
 {
 public:

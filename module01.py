@@ -12,8 +12,11 @@ if __name__ == '__main__':
     
     plot = Plot()
 
+    #img1 = utils.blurs.filter2DBlur(args)
+    #img2 = utils.blurs.averageBlur(args)
     img1 = utils.filter2DBlur(args)
     img2 = utils.averageBlur(args)
+    
     plot.show_diff(img1, img2)
 
     img1 = blrs.gaussianBlur(args)    
